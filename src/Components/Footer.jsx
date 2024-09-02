@@ -21,7 +21,7 @@ function Footer() {
           </NavLink>
           <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
             <li>
-              <NavLink to="#" className="text-gray-800 hover:text-gray-900">
+              <NavLink to="" className="text-gray-800 hover:text-gray-900">
                 Home
               </NavLink>
             </li>
