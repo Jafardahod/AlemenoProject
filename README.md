@@ -16,8 +16,9 @@ To set up and run the project locally, clone the repository and install the depe
 
 **Clone the repository:**
 
-```git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name```
+```git clone https://github.com/your-username/your-repo-name.git ```
+
+```cd your-repo-name```
 
 **Install the dependencies:**
 
@@ -25,6 +26,7 @@ To set up and run the project locally, clone the repository and install the depe
 
 ## Running the Project
 Start the development server to view the application locally.
+
 ```npm run dev```
 
 
