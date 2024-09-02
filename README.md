@@ -16,7 +16,8 @@ To set up and run the project locally, clone the repository and install the depe
 
 **Clone the repository:**
 
-```git clone https://github.com/your-username/your-repo-name.git ```
+```git clone https://github.com/Jafardahod/AlemenoProject
+.git ```
 
 ```cd your-repo-name```
 
