@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import { store } from "./app/store.js";
 import { fetchData } from './features/dataSlice';
+import { fetchStudents } from './features/studentSlice';
 import App from "./App.jsx";
 import "./index.css";
 import {
@@ -15,6 +16,7 @@ import Layout from "./Components/Layout.jsx";
 import Dashboard from "./screens/Dashboard.jsx";
 import CourseDetails from "./screens/CourseDetails.jsx";
 store.dispatch(fetchData());
+store.dispatch(fetchStudents());
 
 const router = createBrowserRouter(
   createRoutesFromElements(

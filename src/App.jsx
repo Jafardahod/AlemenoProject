@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 
 function App() {
   let [search, setSearch] = useState('')
-  let data = useSelector((state) => state.items.filter((course) => course.Name.toLowerCase().includes(search.toLowerCase()) || course.Instructor.toLowerCase().includes(search.toLowerCase()) || course.Description.toLowerCase().includes(search.toLowerCase()) ? true : false));
+  let data = useSelector((state) => state.data.items.filter((course) => course.Name.toLowerCase().includes(search.toLowerCase()) || course.Instructor.toLowerCase().includes(search.toLowerCase()) || course.Description.toLowerCase().includes(search.toLowerCase()) ? true : false));
   // let [data, setData] = useState([]);
   // async function currentdataloader() {
   //   let res = await fetch(44

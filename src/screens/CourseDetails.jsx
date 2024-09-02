@@ -15,7 +15,7 @@ function CourseDetails() {
 
   let course = useSelector(
     (state) =>
-      state.items.filter((course) => (course.ID == id ? true : false))[0]
+      state.data.items.filter((course) => (course.ID == id ? true : false))[0]
   );
 
   function likeshandler() {
