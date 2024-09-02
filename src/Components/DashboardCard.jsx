@@ -21,7 +21,7 @@ const DashboardCard = ({ id }) => {
             </div>
             <div className="ml-4">
               <div className="text-sm leading-5 font-medium text-gray-900">
-                {studentCourses.Name}
+                {studentCourses.Course}
               </div>
             </div>
           </div>
